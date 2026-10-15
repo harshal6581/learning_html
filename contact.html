@@ -3,100 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacts</title>
+    <title>Apex Contact Page</title>
 </head>
 <body>
-
-     <header>
+    <header>
+        <h1>Our Contacts</h1>
         <nav>
             <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="services.html">Services</a>
             <a href="products.html">Products</a>
             <a href="contact.html">Contact Us</a>
-            <a href="https://www.facebook.com/" target="blank">Facebook</a>
         </nav>
-       </header>
-       <main>
-       <!-- About Section Starts -->
+    </header>
+    <hr>
 
-       <section>
-        <h1>About Us</h1>
-        <article>
-            <p>
-                 Cricket is a bat-and-ball game that is played between two teams of eleven players on a field, at the centre of which is a 22-yard (20-metre; 66-foot) pitch with a wicket at each end, each comprising two bails (small sticks) balanced on three stumps. Two players from the batting team, the striker and nonstriker, stand in front of either wicket holding bats, while one player from the fielding team, the bowler, bowls the ball toward the striker's wicket from the opposite end of the pitch. The striker's goal is to hit the bowled ball with the bat and then switch places with the nonstriker, with the batting team scoring one run for each of these swaps
+    <main>
+        <section>
+        <h2>Get in Touch</h2>
+        <p>Have any questions about our vehicles and services? Send us an enquiry</p>
+        <fieldset>
+            <legend>Contact Form</legend>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" placeholder="Enter Your Name"><br><br>
+
+            <label for="Email">Email:</label>
+            <input type="email" placeholder="Enter email"><br><br>
+
+            <label for="Phone">Phone no.:</label>
+            <input type="tel" placeholder="Enter Your Phone no."><br><br>
+
+            <label for="interest">Interested in:</label>
+            <select>
+                <option>Select a Vehicle...</option>
+                <option>Apex Luxury Cars</option>
+                <option>Apex Sports Car</option>
+                <option>Apex SUVs</option>
+                <option>Apex EVs</option>
+            </select><br><br>
+
+            <label for="message">Your message:</label>
+            <textarea rows="5" cols="30" placeholder="Write your message"></textarea><br><br>
+
+            <input type="submit">
+            <input type="reset">
+
+
         
-            </p>
-        </article>
-       
-       </section>
-       <hr>
+        </form>
+        </fieldset>
+        </section>
+        <hr>
 
-       <!-- About section ends -->
+        <section>
+            <h2>Our Contact Details</h2>
+            <p>Phone NO : +91 9988776655</p>
+            <p>Email:Apex3103@gmail.com</p>
+            <p>Address:Pune, Maharshtra</p>
+        </section>
+    </main>
+    <hr>
 
-       <section>
-        <h1>Services</h1>
-         <table border="3">
-        <thead>
-            <tr>
-                <th>
-                    Language
-                </th>
-                <th> Details </th>
-            </tr>
-        </thead>
-
-        <tbody>
-            <tr>
-                <td rowspan="3"> Web Design </td>
-                <td>HTML</td>
-            </tr>
-
-            <tr>
-                <td>CSS</td>
-            </tr>
-
-            <tr>
-                <td>JS</td>
-            </tr>
-
-            <tr>
-                <td rowspan="4">RCB</td>
-                <td>Virat</td>
-            </tr>
-
-            <tr>
-                <td>Rajat</td>
-            </tr> 
-
-            <tr>
-                <td>Bhuvi</td>
-            </tr>
-
-            <tr>
-                <td>King</td>
-            </tr>
-        </tbody>
-    </table>
-       </section>
-       <hr>
-
-       <section>
-        <h1>Our Products</h1>
-        <picture>
-            <img src="Images/Bappa.jpg"/>
-            <img src="Images/vk.jpg" alt ="Virat Kohli"/>
-        </picture>
-        <br>
-
-        <figure>
-            <img src="Images/maharaj.webp" alt = "maharaj"/>
-            <figcaption>CHTRAPATI SHIVAJI MAHARAJ</figcaption>
-        </figure>
-       </section>
-       </main>
-
-       
+    <footer>
+         &copy; 2026 Apex Motors. All rights reserved
+    </footer>
     
 </body>
 </html>
